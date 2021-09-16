@@ -35,7 +35,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
-            <RowDefinition Height="150*"/>
+            <RowDefinition Height="165*"/>
             <RowDefinition Height="15*"/>
             <RowDefinition Height="30*"/>
             <!--非固定面板-->
