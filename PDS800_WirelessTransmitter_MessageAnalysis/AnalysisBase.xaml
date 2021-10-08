@@ -37,7 +37,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="165*"/>
             <RowDefinition Height="15*"/>
-            <RowDefinition Height="30*"/>
+            <RowDefinition Height="30"/>
             <!--非固定面板-->
             <!--<RowDefinition Height="120*"/>
             <RowDefinition Height="90*"/>
@@ -411,14 +411,14 @@
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Right" Grid.Column="1" >
                 <!--接收字节数-->
-                <Label Content="接收字节数"/>
+                <Label Content="接收字节数"  VerticalAlignment="Center"/>
             </StatusBarItem>
             <StatusBarItem Grid.Column="2" VerticalAlignment="Center" >
                 <TextBlock Name="statusReceiveByteTextBlock" Foreground="Blue" Text="0"/>
             </StatusBarItem>
             <StatusBarItem Grid.Column="3" HorizontalAlignment="Right">
                 <!--发送字节数-->
-                <Label Content="发送字节数"/>
+                <Label Content="发送字节数"  VerticalAlignment="Center"/>
             </StatusBarItem>
             <StatusBarItem Grid.Column="4" VerticalAlignment="Center" >
                 <TextBlock Name="statusSendByteTextBlock" Foreground="Blue" Text="0"/>
