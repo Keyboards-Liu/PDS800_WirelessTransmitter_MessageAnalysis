@@ -399,8 +399,7 @@ namespace PDS800_WirelessTransmitter_MessageAnalysis
                 string[] hexvalue = receiveText.Trim().Split(' ');
                 // 求字符串异或值
                 foreach (string hex in hexvalue) j = HexStrXor(j, hex);
-                //if (j == frameHeader.Text)
-                if (true)
+                if (j == frameHeader.Text)
                 {
                     resCRC.Text = "通过";
                     switch (receiveText.Substring(0, 2))
